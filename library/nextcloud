@@ -5,45 +5,45 @@ GitRepo: https://github.com/nextcloud/docker.git
 
 Tags: 21.0.8-apache, 21.0-apache, 21-apache, 21.0.8, 21.0, 21
 Architectures: amd64, arm32v5, arm32v7, arm64v8, i386, mips64le, ppc64le, s390x
-GitCommit: dcf058fb559e7918cd77f5f1bb0dfdbcee813571
+GitCommit: 05365221755163f7f513bac939d4851e79b06a04
 Directory: 21/apache
-
-Tags: 21.0.8-fpm, 21.0-fpm, 21-fpm
-Architectures: amd64, arm32v5, arm32v7, arm64v8, i386, mips64le, ppc64le, s390x
-GitCommit: dcf058fb559e7918cd77f5f1bb0dfdbcee813571
-Directory: 21/fpm
 
 Tags: 21.0.8-fpm-alpine, 21.0-fpm-alpine, 21-fpm-alpine
 Architectures: amd64, arm32v6, arm32v7, arm64v8, i386, ppc64le, s390x
-GitCommit: dcf058fb559e7918cd77f5f1bb0dfdbcee813571
+GitCommit: 05365221755163f7f513bac939d4851e79b06a04
 Directory: 21/fpm-alpine
+
+Tags: 21.0.8-fpm, 21.0-fpm, 21-fpm
+Architectures: amd64, arm32v5, arm32v7, arm64v8, i386, mips64le, ppc64le, s390x
+GitCommit: 05365221755163f7f513bac939d4851e79b06a04
+Directory: 21/fpm
 
 Tags: 22.2.4-apache, 22.2-apache, 22-apache, 22.2.4, 22.2, 22
 Architectures: amd64, arm32v5, arm32v7, arm64v8, i386, mips64le, ppc64le, s390x
-GitCommit: dcf058fb559e7918cd77f5f1bb0dfdbcee813571
+GitCommit: 05365221755163f7f513bac939d4851e79b06a04
 Directory: 22/apache
-
-Tags: 22.2.4-fpm, 22.2-fpm, 22-fpm
-Architectures: amd64, arm32v5, arm32v7, arm64v8, i386, mips64le, ppc64le, s390x
-GitCommit: dcf058fb559e7918cd77f5f1bb0dfdbcee813571
-Directory: 22/fpm
 
 Tags: 22.2.4-fpm-alpine, 22.2-fpm-alpine, 22-fpm-alpine
 Architectures: amd64, arm32v6, arm32v7, arm64v8, i386, ppc64le, s390x
-GitCommit: dcf058fb559e7918cd77f5f1bb0dfdbcee813571
+GitCommit: 05365221755163f7f513bac939d4851e79b06a04
 Directory: 22/fpm-alpine
+
+Tags: 22.2.4-fpm, 22.2-fpm, 22-fpm
+Architectures: amd64, arm32v5, arm32v7, arm64v8, i386, mips64le, ppc64le, s390x
+GitCommit: 05365221755163f7f513bac939d4851e79b06a04
+Directory: 22/fpm
 
 Tags: 23.0.1-apache, 23.0-apache, 23-apache, apache, 23.0.1, 23.0, 23, latest
 Architectures: amd64, arm32v5, arm32v7, arm64v8, i386, mips64le, ppc64le, s390x
-GitCommit: dcf058fb559e7918cd77f5f1bb0dfdbcee813571
+GitCommit: 05365221755163f7f513bac939d4851e79b06a04
 Directory: 23/apache
-
-Tags: 23.0.1-fpm, 23.0-fpm, 23-fpm, fpm
-Architectures: amd64, arm32v5, arm32v7, arm64v8, i386, mips64le, ppc64le, s390x
-GitCommit: dcf058fb559e7918cd77f5f1bb0dfdbcee813571
-Directory: 23/fpm
 
 Tags: 23.0.1-fpm-alpine, 23.0-fpm-alpine, 23-fpm-alpine, fpm-alpine
 Architectures: amd64, arm32v6, arm32v7, arm64v8, i386, ppc64le, s390x
-GitCommit: dcf058fb559e7918cd77f5f1bb0dfdbcee813571
+GitCommit: 05365221755163f7f513bac939d4851e79b06a04
 Directory: 23/fpm-alpine
+
+Tags: 23.0.1-fpm, 23.0-fpm, 23-fpm, fpm
+Architectures: amd64, arm32v5, arm32v7, arm64v8, i386, mips64le, ppc64le, s390x
+GitCommit: 05365221755163f7f513bac939d4851e79b06a04
+Directory: 23/fpm
