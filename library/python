@@ -27,12 +27,12 @@ Directory: 3.11-rc/slim-buster
 
 Tags: 3.11.0a5-alpine3.15, 3.11-rc-alpine3.15, 3.11.0a5-alpine, 3.11-rc-alpine
 Architectures: amd64, arm32v6, arm32v7, arm64v8, i386, ppc64le, s390x
-GitCommit: 18d298c913b13e0ba91ef1265e5a328f4b1a26f2
+GitCommit: 597b1f26a39500e62f9b01fa08f9e2f91a935a7c
 Directory: 3.11-rc/alpine3.15
 
 Tags: 3.11.0a5-alpine3.14, 3.11-rc-alpine3.14
 Architectures: amd64, arm32v6, arm32v7, arm64v8, i386, ppc64le, s390x
-GitCommit: 18d298c913b13e0ba91ef1265e5a328f4b1a26f2
+GitCommit: 597b1f26a39500e62f9b01fa08f9e2f91a935a7c
 Directory: 3.11-rc/alpine3.14
 
 Tags: 3.11.0a5-windowsservercore-ltsc2022, 3.11-rc-windowsservercore-ltsc2022
@@ -72,12 +72,12 @@ Directory: 3.10/slim-buster
 
 Tags: 3.10.2-alpine3.15, 3.10-alpine3.15, 3-alpine3.15, alpine3.15, 3.10.2-alpine, 3.10-alpine, 3-alpine, alpine
 Architectures: amd64, arm32v6, arm32v7, arm64v8, i386, ppc64le, s390x
-GitCommit: e0dacc4c580f4ad0aa68136789add4e37bdaab91
+GitCommit: 597b1f26a39500e62f9b01fa08f9e2f91a935a7c
 Directory: 3.10/alpine3.15
 
 Tags: 3.10.2-alpine3.14, 3.10-alpine3.14, 3-alpine3.14, alpine3.14
 Architectures: amd64, arm32v6, arm32v7, arm64v8, i386, ppc64le, s390x
-GitCommit: e0dacc4c580f4ad0aa68136789add4e37bdaab91
+GitCommit: 597b1f26a39500e62f9b01fa08f9e2f91a935a7c
 Directory: 3.10/alpine3.14
 
 Tags: 3.10.2-windowsservercore-ltsc2022, 3.10-windowsservercore-ltsc2022, 3-windowsservercore-ltsc2022, windowsservercore-ltsc2022
@@ -117,12 +117,12 @@ Directory: 3.9/slim-buster
 
 Tags: 3.9.10-alpine3.15, 3.9-alpine3.15, 3.9.10-alpine, 3.9-alpine
 Architectures: amd64, arm32v6, arm32v7, arm64v8, i386, ppc64le, s390x
-GitCommit: f9faff7d8a97e2a71e4fd58a1ff9ee396c6296a6
+GitCommit: 597b1f26a39500e62f9b01fa08f9e2f91a935a7c
 Directory: 3.9/alpine3.15
 
 Tags: 3.9.10-alpine3.14, 3.9-alpine3.14
 Architectures: amd64, arm32v6, arm32v7, arm64v8, i386, ppc64le, s390x
-GitCommit: f9faff7d8a97e2a71e4fd58a1ff9ee396c6296a6
+GitCommit: 597b1f26a39500e62f9b01fa08f9e2f91a935a7c
 Directory: 3.9/alpine3.14
 
 Tags: 3.9.10-windowsservercore-ltsc2022, 3.9-windowsservercore-ltsc2022
@@ -162,12 +162,12 @@ Directory: 3.8/slim-buster
 
 Tags: 3.8.12-alpine3.15, 3.8-alpine3.15, 3.8.12-alpine, 3.8-alpine
 Architectures: amd64, arm32v6, arm32v7, arm64v8, i386, ppc64le, s390x
-GitCommit: b1791249f1a5f6e4a02bde16cca7fe75e56df76e
+GitCommit: 597b1f26a39500e62f9b01fa08f9e2f91a935a7c
 Directory: 3.8/alpine3.15
 
 Tags: 3.8.12-alpine3.14, 3.8-alpine3.14
 Architectures: amd64, arm32v6, arm32v7, arm64v8, i386, ppc64le, s390x
-GitCommit: b1791249f1a5f6e4a02bde16cca7fe75e56df76e
+GitCommit: 597b1f26a39500e62f9b01fa08f9e2f91a935a7c
 Directory: 3.8/alpine3.14
 
 Tags: 3.7.12-bullseye, 3.7-bullseye
@@ -193,10 +193,10 @@ Directory: 3.7/slim-buster
 
 Tags: 3.7.12-alpine3.15, 3.7-alpine3.15, 3.7.12-alpine, 3.7-alpine
 Architectures: amd64, arm32v6, arm32v7, arm64v8, i386, ppc64le, s390x
-GitCommit: 4faa0e575a5fec535de8ca24a55a31af347b53e0
+GitCommit: 597b1f26a39500e62f9b01fa08f9e2f91a935a7c
 Directory: 3.7/alpine3.15
 
 Tags: 3.7.12-alpine3.14, 3.7-alpine3.14
 Architectures: amd64, arm32v6, arm32v7, arm64v8, i386, ppc64le, s390x
-GitCommit: 4faa0e575a5fec535de8ca24a55a31af347b53e0
+GitCommit: 597b1f26a39500e62f9b01fa08f9e2f91a935a7c
 Directory: 3.7/alpine3.14
