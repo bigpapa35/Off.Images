@@ -1,7 +1,19 @@
 Maintainers: Consul Team <consul@hashicorp.com> (@hashicorp/consul)
 
-Tags: 1.4.3, latest
+Tags: 1.10.0, 1.10, latest
 Architectures: amd64, arm32v6, arm64v8, i386
 GitRepo: https://github.com/hashicorp/docker-consul.git
-GitCommit: aff32e3913d64776d3776bf3086d4d5f5be3d95e
+GitCommit: 75971b9b493d8ad1ed2a7d8892a1dace2b54f848
+Directory: 0.X
+
+Tags: 1.9.7, 1.9
+Architectures: amd64, arm32v6, arm64v8, i386
+GitRepo: https://github.com/hashicorp/docker-consul.git
+GitCommit: 50cd4070084984b3237104bd9494ae45809fd475
+Directory: 0.X
+
+Tags: 1.8.13, 1.8
+Architectures: amd64, arm32v6, arm64v8, i386
+GitRepo: https://github.com/hashicorp/docker-consul.git
+GitCommit: 8e034a419d073ddb09175efcff2d720f7a7bdcec
 Directory: 0.X

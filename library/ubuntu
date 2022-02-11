@@ -3,47 +3,57 @@
 
 Maintainers: Tianon Gravi <tianon@debian.org> (@tianon), Michael Hudson-Doyle <michael.hudson@ubuntu.com> (@mwhudson)
 GitRepo: https://github.com/tianon/docker-brew-ubuntu-core.git
-GitCommit: 5d70c58c86bcbe1db7583d99e6988a7a7d048215
+GitCommit: 0b8f2d3178be022d9696ab7e2a786f3ab6406c41
 # https://github.com/tianon/docker-brew-ubuntu-core/tree/dist-amd64
 amd64-GitFetch: refs/heads/dist-amd64
-amd64-GitCommit: bfd753a747344ff1c6838a2c91ff0606e936f0d0
+amd64-GitCommit: 1c090689a541a57452ae21cb76ef038b9f339fb2
 # https://github.com/tianon/docker-brew-ubuntu-core/tree/dist-arm32v7
 arm32v7-GitFetch: refs/heads/dist-arm32v7
-arm32v7-GitCommit: 5d46c6d38c73c0c4602d96a9462788050b01fd9d
+arm32v7-GitCommit: 5149b4dec8a0c4c6d980ae3a097e4c618c4309fc
 # https://github.com/tianon/docker-brew-ubuntu-core/tree/dist-arm64v8
 arm64v8-GitFetch: refs/heads/dist-arm64v8
-arm64v8-GitCommit: 415aaf2f9d3700ce1fe8004276984b3534f501a3
+arm64v8-GitCommit: 013cb1c5dffb4c1c49de6c81e6792791d19044c3
 # https://github.com/tianon/docker-brew-ubuntu-core/tree/dist-i386
 i386-GitFetch: refs/heads/dist-i386
-i386-GitCommit: 872c8c8e502282771d712a92ad6a18443c5f3907
+i386-GitCommit: c98f198abb6d7148cad91a75137804c52d702968
 # https://github.com/tianon/docker-brew-ubuntu-core/tree/dist-ppc64le
 ppc64le-GitFetch: refs/heads/dist-ppc64le
-ppc64le-GitCommit: f216453d9919381e26f0e2f8291a1f3b52d33917
+ppc64le-GitCommit: 44f517c0b9e9f22a8695c9681824dd371f828188
 # https://github.com/tianon/docker-brew-ubuntu-core/tree/dist-s390x
 s390x-GitFetch: refs/heads/dist-s390x
-s390x-GitCommit: 3d8b79ba2f8a3e7f884fa93ff32cfa8e636758ac
+s390x-GitCommit: bae1f1838c6c61e98329912fdb59ba5ca70f0e2e
 
-# 20190307 (bionic)
-Tags: 18.04, bionic-20190307, bionic, latest
+# 20210615.1 (bionic)
+Tags: 18.04, bionic-20210615.1, bionic
 Architectures: amd64, arm32v7, arm64v8, i386, ppc64le, s390x
 Directory: bionic
 
-# 20190311 (cosmic)
-Tags: 18.10, cosmic-20190311, cosmic, rolling
-Architectures: amd64, arm32v7, arm64v8, i386, ppc64le, s390x
-Directory: cosmic
+# 20210609 (focal)
+Tags: 20.04, focal-20210609, focal, latest
+Architectures: amd64, arm32v7, arm64v8, ppc64le, s390x
+Directory: focal
 
-# 20190310 (disco)
-Tags: 19.04, disco-20190310, disco, devel
-Architectures: amd64, arm32v7, arm64v8, i386, ppc64le, s390x
-Directory: disco
+# 20210614 (groovy)
+Tags: 20.10, groovy-20210614, groovy
+Architectures: amd64, arm32v7, arm64v8, ppc64le, s390x
+Directory: groovy
 
-# 20190305 (trusty)
-Tags: 14.04, trusty-20190305, trusty
+# 20210602 (hirsute)
+Tags: 21.04, hirsute-20210602, hirsute, rolling
+Architectures: amd64, arm32v7, arm64v8, ppc64le, s390x
+Directory: hirsute
+
+# 20210606 (impish)
+Tags: 21.10, impish-20210606, impish, devel
+Architectures: amd64, arm32v7, arm64v8, ppc64le, s390x
+Directory: impish
+
+# 20191217 (trusty)
+Tags: 14.04, trusty-20191217, trusty
 Architectures: amd64, arm32v7, arm64v8, i386, ppc64le
 Directory: trusty
 
-# 20190222 (xenial)
-Tags: 16.04, xenial-20190222, xenial
+# 20210611 (xenial)
+Tags: 16.04, xenial-20210611, xenial
 Architectures: amd64, arm32v7, arm64v8, i386, ppc64le, s390x
 Directory: xenial

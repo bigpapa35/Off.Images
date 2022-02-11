@@ -1,24 +1,24 @@
-#MySQL is not officially supported for arm64v8.
-#Ongoing issue for the same is: https://github.com/docker-library/mysql/issues/318
+# MySQL is not officially supported for arm64v8.
+# Ongoing issue for the same is: https://github.com/docker-library/mysql/issues/318
 Maintainers: XWiki Core Dev Team <committers@xwiki.org> (@xwiki)
 GitRepo: https://github.com/xwiki-contrib/docker-xwiki.git
 
-Tags: 10, 10.11, 10.11.3, 10-mysql-tomcat, mysql-tomcat, lts-mysql-tomcat, lts-mysql, lts
+Tags: 13, 13.4, 13.4.0, 13-mysql-tomcat, 13.4-mysql-tomcat, 13.4.0-mysql-tomcat, mysql-tomcat, stable-mysql-tomcat, stable-mysql, stable, latest
 Architectures: amd64
-GitCommit: 9add052235a3cfa9b41770ef2ff0072772ae8a7e
-Directory: 10/mysql-tomcat
+Directory: 13/mysql-tomcat
+GitCommit: 5384037f6f8cee294b1d40e3affaaefcb0f218dc
 
-Tags: 10-postgres-tomcat, 10.11-postgres-tomcat, 10.11.3-postgres-tomcat, postgres-tomcat, lts-postgres-tomcat, lts-postgres
+Tags: 13-postgres-tomcat, 13.4-postgres-tomcat, 13.4.0-postgres-tomcat, postgres-tomcat, stable-postgres-tomcat, stable-postgres
 Architectures: amd64, arm64v8
-GitCommit: 9add052235a3cfa9b41770ef2ff0072772ae8a7e
-Directory: 10/postgres-tomcat
+Directory: 13/postgres-tomcat
+GitCommit: 5384037f6f8cee294b1d40e3affaaefcb0f218dc
 
-Tags: 11, 11.1, 11-mysql-tomcat, 11.1-mysql-tomcat, stable-mysql-tomcat, stable-mysql, stable, latest
+Tags: 12, 12.10, 12.10.8, 12-mysql-tomcat, 12.10-mysql-tomcat, 12.10.8-mysql-tomcat, lts-mysql-tomcat, lts-mysql, lts
 Architectures: amd64
-GitCommit: 95e9427ae1b0a7136f4090d91e0f3e51bae0ae1c
-Directory: 11/mysql-tomcat
+Directory: 12/mysql-tomcat
+GitCommit: aafaa4b2af0417118382af0d238aa6b9eed68035
 
-Tags: 11-postgres-tomcat, 11.1-postgres-tomcat, stable-postgres-tomcat, stable-postgres
+Tags: 12-postgres-tomcat, 12.10-postgres-tomcat, 12.10.8-postgres-tomcat, lts-postgres-tomcat, lts-postgres
 Architectures: amd64, arm64v8
-GitCommit: 95e9427ae1b0a7136f4090d91e0f3e51bae0ae1c
-Directory: 11/postgres-tomcat
+Directory: 12/postgres-tomcat
+GitCommit: aafaa4b2af0417118382af0d238aa6b9eed68035

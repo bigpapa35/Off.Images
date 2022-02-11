@@ -1,54 +1,58 @@
-# this file is generated via https://github.com/docker-library/busybox/blob/f7661b44becfe763eb1fcb8c176d44f80c742e00/generate-stackbrew-library.sh
+# this file is generated via https://github.com/docker-library/busybox/blob/6fce185cf328515b4ac9093efccc5adf212a2573/generate-stackbrew-library.sh
 
 Maintainers: Tianon Gravi <admwiggin@gmail.com> (@tianon),
              Joseph Ferguson <yosifkit@gmail.com> (@yosifkit),
              Jérôme Petazzoni <jerome.petazzoni@gmail.com> (@jpetazzo)
 GitRepo: https://github.com/docker-library/busybox.git
-GitCommit: f7661b44becfe763eb1fcb8c176d44f80c742e00
+GitCommit: 6fce185cf328515b4ac9093efccc5adf212a2573
 # https://github.com/docker-library/busybox/tree/dist-amd64
 amd64-GitFetch: refs/heads/dist-amd64
-amd64-GitCommit: 82bc0333a9ae148fbb4246bcbff1487b3fc0c510
+amd64-GitCommit: 2bcc4bf56c2a4594aa31feb8b42d5eab76d168bb
 # https://github.com/docker-library/busybox/tree/dist-arm32v5
 arm32v5-GitFetch: refs/heads/dist-arm32v5
-arm32v5-GitCommit: e74c25b4c1b58bac025b2d8d4ec27bb4e75f09bc
+arm32v5-GitCommit: a542a7bc9817e71654aba8feb6b5cb265e8f9976
 # https://github.com/docker-library/busybox/tree/dist-arm32v6
 arm32v6-GitFetch: refs/heads/dist-arm32v6
-arm32v6-GitCommit: 0c080eede06b6763aad5a4d0cbfe03acb2895f3d
+arm32v6-GitCommit: 4619f8d1d337e99ce34641394b37f13d2086b7fa
 # https://github.com/docker-library/busybox/tree/dist-arm32v7
 arm32v7-GitFetch: refs/heads/dist-arm32v7
-arm32v7-GitCommit: c764d969bf9aabfe90e8636b4c77578b073ef69a
+arm32v7-GitCommit: 167c5ca7501659ccbe426677302f49b1060a2d1c
 # https://github.com/docker-library/busybox/tree/dist-arm64v8
 arm64v8-GitFetch: refs/heads/dist-arm64v8
-arm64v8-GitCommit: a3f79e474f617f7ff008148555df93bc7ae4a9ab
+arm64v8-GitCommit: cce85f68157251e06d6a328fe092000b55a26725
 # https://github.com/docker-library/busybox/tree/dist-i386
 i386-GitFetch: refs/heads/dist-i386
-i386-GitCommit: 10ee4442091238bb4ccf1b8f77cc0133b6649d4c
+i386-GitCommit: 6146c81916dc3384c7ac8fe13c5c1fb69f70b80a
+# https://github.com/docker-library/busybox/tree/dist-mips64le
+mips64le-GitFetch: refs/heads/dist-mips64le
+mips64le-GitCommit: e152603121edbf1117006ff7d843de5ff26fe864
 # https://github.com/docker-library/busybox/tree/dist-ppc64le
 ppc64le-GitFetch: refs/heads/dist-ppc64le
-ppc64le-GitCommit: ea888952d5aef9bc2b2105df9860ac69949ad295
+ppc64le-GitCommit: 9c6ff55d8efc0ab835a9fe70c660c907ccb1a325
 # https://github.com/docker-library/busybox/tree/dist-s390x
 s390x-GitFetch: refs/heads/dist-s390x
-s390x-GitCommit: d6628707485d2aabeb91d397e437c38256d3d84d
+s390x-GitCommit: 6b63b93035aa234e8e09843bca168f518db651f6
 
-Tags: 1.30.1-uclibc, 1.30-uclibc, 1-uclibc, uclibc
-Architectures: amd64, arm32v5, arm32v7, arm64v8, i386
-Directory: uclibc
+Tags: 1.33.1-uclibc, 1.33-uclibc, 1-uclibc, stable-uclibc, uclibc
+Architectures: amd64, arm32v5, arm32v7, arm64v8, i386, mips64le
+Directory: stable/uclibc
 
-Tags: 1.30.1-glibc, 1.30-glibc, 1-glibc, glibc
-Architectures: amd64, arm32v5, arm32v7, arm64v8, i386, ppc64le, s390x
-Directory: glibc
+Tags: 1.33.1-glibc, 1.33-glibc, 1-glibc, stable-glibc, glibc
+Architectures: amd64, arm32v5, arm32v7, arm64v8, i386, mips64le, ppc64le, s390x
+Directory: stable/glibc
 
-Tags: 1.30.1-musl, 1.30-musl, 1-musl, musl
-Architectures: amd64, arm32v6, arm64v8, i386, ppc64le, s390x
-Directory: musl
+Tags: 1.33.1-musl, 1.33-musl, 1-musl, stable-musl, musl
+Architectures: amd64, arm32v6, arm32v7, arm64v8, i386, ppc64le, s390x
+Directory: stable/musl
 
-Tags: 1.30.1, 1.30, 1, latest
-Architectures: amd64, arm32v5, arm32v6, arm32v7, arm64v8, i386, ppc64le, s390x
-amd64-Directory: uclibc
-arm32v5-Directory: uclibc
-arm32v6-Directory: musl
-arm32v7-Directory: uclibc
-arm64v8-Directory: uclibc
-i386-Directory: uclibc
-ppc64le-Directory: glibc
-s390x-Directory: glibc
+Tags: 1.33.1, 1.33, 1, stable, latest
+Architectures: amd64, arm32v5, arm32v6, arm32v7, arm64v8, i386, mips64le, ppc64le, s390x
+amd64-Directory: stable/uclibc
+arm32v5-Directory: stable/uclibc
+arm32v6-Directory: stable/musl
+arm32v7-Directory: stable/uclibc
+arm64v8-Directory: stable/uclibc
+i386-Directory: stable/uclibc
+mips64le-Directory: stable/uclibc
+ppc64le-Directory: stable/glibc
+s390x-Directory: stable/glibc

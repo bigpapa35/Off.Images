@@ -1,18 +1,25 @@
 Maintainers: Oracle Linux Product Team <ol-ovm-info_ww@oracle.com> (@Oracle)
 GitRepo: https://github.com/oracle/container-images.git
-GitCommit: 01a15ec99c7470a3391c691509db1759b41eaf66
+GitCommit: 5c8a1c296acd6e90487cd261d16cf85fd6bcb73f
 GitFetch: refs/heads/master
 # https://github.com/oracle/container-images/tree/dist-amd64
 amd64-GitFetch: refs/heads/dist-amd64
-amd64-GitCommit: f079c3e69da496b2d4cadbf932ce283e8e3fd18d
+amd64-GitCommit: fda038ed6d3eca41cac6e6f9950924408b3d7c7d
 # https://github.com/oracle/container-images/tree/dist-arm64v8
 arm64v8-GitFetch: refs/heads/dist-arm64v8
-arm64v8-GitCommit: 5f08815cfa024f9304f40eb403a7a05dec6a2f09
-Constraints: !aufs
+arm64v8-GitCommit: ac20c0ff31856d307adc49845cd69988f16de168
 
-Tags: 7.6, 7, latest
+Tags: 8.4, 8
 Architectures: amd64, arm64v8
-Directory: 7.6
+Directory: 8
+
+Tags: 8-slim
+Architectures: amd64, arm64v8
+Directory: 8-slim
+
+Tags: 7.9, 7
+Architectures: amd64, arm64v8
+Directory: 7
 
 Tags: 7-slim
 Architectures: amd64, arm64v8
@@ -20,9 +27,8 @@ Directory: 7-slim
 
 Tags: 6.10, 6
 Architectures: amd64
-Directory: 6.10
+Directory: 6
 
 Tags: 6-slim
 Architectures: amd64
 Directory: 6-slim
-

@@ -1,60 +1,49 @@
-Maintainers: Jonathan A. Sternberg <jonathan@influxdata.com> (@jsternberg)
+Maintainers: Cody Shepherd (@codyshepherd), Daniel Moran <dmoran@influxdata.com> (@danxmoran)
 GitRepo: git://github.com/influxdata/influxdata-docker
-GitCommit: d76a6a184dec6a82978964882641a743adb76989
+GitCommit: e5b413dcc8fa77422f4a357c02c60a75326d61a7
 
-Tags: 1.5, 1.5.4
-Architectures: amd64, arm32v7, arm64v8
-Directory: influxdb/1.5
-
-Tags: 1.5-alpine, 1.5.4-alpine
-Directory: influxdb/1.5/alpine
-
-Tags: 1.5-data, 1.5.4-data
-Directory: influxdb/1.5/data
-
-Tags: 1.5-data-alpine, 1.5.4-data-alpine
-Directory: influxdb/1.5/data/alpine
-
-Tags: 1.5-meta, 1.5.4-meta
-Directory: influxdb/1.5/meta
-
-Tags: 1.5-meta-alpine, 1.5.4-meta-alpine
-Directory: influxdb/1.5/meta/alpine
-
-Tags: 1.6, 1.6.6
-Architectures: amd64, arm32v7, arm64v8
-Directory: influxdb/1.6
-
-Tags: 1.6-alpine, 1.6.6-alpine
-Directory: influxdb/1.6/alpine
-
-Tags: 1.6-data, 1.6.6-data
-Directory: influxdb/1.6/data
-
-Tags: 1.6-data-alpine, 1.6.6-data-alpine
-Directory: influxdb/1.6/data/alpine
-
-Tags: 1.6-meta, 1.6.6-meta
-Directory: influxdb/1.6/meta
-
-Tags: 1.6-meta-alpine, 1.6.6-meta-alpine
-Directory: influxdb/1.6/meta/alpine
-
-Tags: 1.7, 1.7.4, latest
+Tags: 1.7, 1.7.11
 Architectures: amd64, arm32v7, arm64v8
 Directory: influxdb/1.7
 
-Tags: 1.7-alpine, 1.7.4-alpine, alpine
+Tags: 1.7-alpine, 1.7.11-alpine
 Directory: influxdb/1.7/alpine
 
-Tags: 1.7-data, 1.7.4-data, data
+Tags: 1.7-data, 1.7.11-data
 Directory: influxdb/1.7/data
 
-Tags: 1.7-data-alpine, 1.7.4-data-alpine, data-alpine
+Tags: 1.7-data-alpine, 1.7.11-data-alpine
 Directory: influxdb/1.7/data/alpine
 
-Tags: 1.7-meta, 1.7.4-meta, meta
+Tags: 1.7-meta, 1.7.11-meta
 Directory: influxdb/1.7/meta
 
-Tags: 1.7-meta-alpine, 1.7.4-meta-alpine, meta-alpine
+Tags: 1.7-meta-alpine, 1.7.11-meta-alpine
 Directory: influxdb/1.7/meta/alpine
+
+Tags: 1.8, 1.8.6
+Architectures: amd64, arm32v7, arm64v8
+Directory: influxdb/1.8
+
+Tags: 1.8-alpine, 1.8.6-alpine
+Directory: influxdb/1.8/alpine
+
+Tags: 1.8-data, 1.8.6-data, data
+Directory: influxdb/1.8/data
+
+Tags: 1.8-data-alpine, 1.8.6-data-alpine, data-alpine
+Directory: influxdb/1.8/data/alpine
+
+Tags: 1.8-meta, 1.8.6-meta, meta
+Directory: influxdb/1.8/meta
+
+Tags: 1.8-meta-alpine, 1.8.6-meta-alpine, meta-alpine
+Directory: influxdb/1.8/meta/alpine
+
+Tags: 2.0, 2.0.7, latest
+Architectures: amd64, arm64v8
+Directory: influxdb/2.0
+
+Tags: 2.0-alpine, 2.0.7-alpine, alpine
+Architectures: amd64, arm64v8
+Directory: influxdb/2.0/alpine
